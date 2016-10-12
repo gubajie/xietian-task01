@@ -1,0 +1,296 @@
+@charset "utf-8";
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑", "黑体";
+}
+.top-bar {
+    width: 100%;
+	height: 148px;
+    z-index: -1;
+	padding-bottom: 5px;
+	background-color: white;
+	margin: 0;
+}
+.icon {
+	margin: 0px;
+	width: 25%;
+	height: 143px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+.banner-2 {
+	margin: 0px;
+	width: 31%;
+	padding: 0 20px 0 20px;
+	display: inline-block;
+	padding-bottom: 35px;
+	padding-top: 80px;
+	vertical-align: top;
+	float: left;
+}
+.banner-text {
+	margin: 0px;
+	width: 95%;
+}
+.banner-text2 {
+	margin: 0px;
+	width: 32%;
+	margin:0;
+	display: inline-block;
+	text-align: center;
+	font-size: 26px
+}
+.blank1 {
+	margin: 0px;
+	width: 8%;
+	display: inline-block;
+	vertical-align: top;
+}
+.search {
+	margin: 72px 18px 33px 18px;
+	width: 19.5%;
+	display: inline-block;
+	border: 3px solid #0d4916;
+	vertical-align: top;
+	float: right;
+}
+.search-text {
+	vertical-align: central;
+	font-size: 26px;
+	float: left;
+	width: 75%;
+	margin: 0;
+}
+.search-img {
+	margin: 0px;
+	width: 20%;
+	float: right;
+}
+.a-picture {
+	margin: 0;
+	width: 100%;
+	position: relative;
+}
+.loge-in {
+	margin: 0;
+	width: 15%;
+	padding: 72px 0px 33px 50px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	float: right;
+}
+.loge-in2 {
+	width: 40%;
+	padding: 8px 12px 8px 12px;
+	border: 0px;
+	border-radius: 10px;
+	background-color: #4a8954;
+	color: white;
+	font-size: 18px;
+}
+.background {
+	background-color: #ebf8d6;
+	width: 100%;
+	text-align: center;
+}
+.shiji {
+	margin-top: 58px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+.left {
+	float: left;
+	text-align: left;
+}
+.text-shiji {
+	height: 37px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: inline-block;
+	float: left;
+	font-size: 28px;
+	color: #4a8954;
+	text-align: center;
+}
+.blank2 {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 23px;
+}
+.display {
+	background-color: white;
+	clear: both;
+	margin: 0px auto 37px auto;
+	padding: 16px 18px 22px 18px;
+}
+.list1 {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	display: inline-block;
+	width: 32%;
+}
+.relative {
+	position: relative;
+}
+.shiji-tag {
+	line-height: 50px;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #4a8954;
+	background-color: #4a8954;
+	border-radius: 25px;
+	margin: 22px 0 0 27px;
+	display: block;
+	color: white;
+	text-align: center; 
+	vertical-align: center;
+	z-index: 2;
+}
+.right {
+	font-size: 20px;
+	float: right;
+	color: #4a8954;
+	clear: both;
+}
+.huodong-display {
+	background-color: white;
+	margin-bottom: 36px;
+	width: 100%;
+	height: 250px;
+}
+.huodong-contant {
+	margin: 22px 26px 22px 61px;
+	padding-top: 22px;
+}
+.huodong-information {
+	margin-left: 60px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+.text1 {
+	font-size: 30px;
+	color: #4a8954;
+	text-align: left;
+}
+.text2 {
+	padding: 0px;
+	margin-top: 18px;
+	font-size: 18px;
+	color: #4b4b4b;
+	text-align: left;
+}
+.text3 {
+	padding: 0px;
+	margin-top: 18px;
+	font-size: 24px;
+	color: #4b4b4b;
+	text-align: left;
+}
+span {
+	color: #d4bf3e;
+}
+.huodong-tag {
+	margin-top: 5px;
+	line-height: 50px;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #4a8954;
+	background-color: #4a8954;
+	border-radius: 25px;
+	color: white;
+	text-align: center; 
+	float: right;
+}
+.huodong-contant2 {
+	margin: 22px 61px 22px 26px;
+	padding-top: 22px;
+}
+.huodong-information2 {
+	margin-right: 60px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+.text12 {
+	font-size: 30px;
+	color: #4a8954;
+	text-align: right;
+}
+.text22 {
+	padding: 0px;
+	margin-top: 18px;
+	font-size: 18px;
+	color: #4b4b4b;
+	text-align: right;
+}
+.text32 {
+	padding: 0px;
+	margin-top: 18px;
+	font-size: 24px;
+	color: #4b4b4b;
+	text-align: right;
+}
+.xiaozu-display {
+	margin-bottom: 36px;
+	width: 100%;
+}
+.xiaozu-block {
+	margin: 14px 0px 14px 0px;
+	width: 43%;
+	float: left;
+	display: inline-block;
+	height: 162px;
+	background-color: white;
+}
+.xiaozu-block2 {
+	margin: 14px 0px 14px 0px;
+	width: 43%;
+	float: right;
+	display: inline-block;
+	height: 162px;
+	background-color: white;
+	margin-right: 60px;
+}
+.xiaozu-picture {
+	width: 31%;
+	margin-left: 18px;
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+}
+.xiaozu-information {
+	margin: auto 0 auto 0;
+	padding-left: 15px;
+	padding-top: 43px;
+	display: inline-block;
+	float: left;
+}
+.blank3 {
+	height: 66px;
+	clear: both;
+}
+.footer {
+	background-color: #303136;
+	height: 78px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 24px;
+}
+.text-footer {
+	font-size: 12px;
+	color: white;
+	vertical-align: middle;
+}
